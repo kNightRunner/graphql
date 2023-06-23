@@ -10,6 +10,10 @@ const { connectDB } = require("./db");
 const app = express();
 connectDB();
 
+app.get('/health', (req, res) => {
+  res.status(200).send('OK');
+});
+
 async function start() {
   const apolloServerInstance = new ApolloServer({
     typeDefs,
