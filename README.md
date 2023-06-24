@@ -16,8 +16,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
     ```
-    git clone https://github.com/yourusername/express-apollo-mongodb.git
-    cd express-apollo-mongodb
+    git clone git@github.com:kNightRunner/graphql.git
+    cd graphql
     ```
 
 2. Install dependencies
