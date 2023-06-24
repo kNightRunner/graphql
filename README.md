@@ -53,7 +53,6 @@ mutation {
 Example Query:
 
 graphql
-Copy code
 query {
   tasks {
     title
